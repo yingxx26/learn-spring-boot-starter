@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.nosuchfield.httpstarter.HttpAutoConfiguration
+com.nosuchfield.httpstarter.JdbcAutoConfiguration
