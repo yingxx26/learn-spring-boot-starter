@@ -38,7 +38,7 @@ public class JdbcAutoConfiguration {
     // 通过一定的手段或条件来创建bean，然后放入表中，之后从表中获取bean
 
     @Bean
-    @Qualifier("shardinngSqlSession")
+    @Qualifier("shardingSqlSession")
     //@ConditionalOnMissingBean
     public SqlSession init() throws Exception {
         Map<String, DataSource> dataSourceMap = new HashMap<>();
